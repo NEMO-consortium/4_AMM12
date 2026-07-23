@@ -39,6 +39,7 @@ cp -r AMM12_forcings/* /nemo_5.0.1/cfgs/AMM12_DEMO/EXP00/.
 
 2. At this point we recommend making a copy of your NEMO build (`EXP00`) to `EXP001`. This allows you to perform new runs or rebuild nemo from a clean install. Then follow the NEMO basics tutorial to run the model ([here](https://github.com/NEMO-consortium/0_NEMO_basics/blob/main/Turorial1.md#3-how-to-run-nemo-502)). 16 cores are recommended.  
 
+=========================== STOP tutorial 1 here ===============================
 ## Step 5: Copy AMM12 hackathon config files
 
 Clone this tutorial: 

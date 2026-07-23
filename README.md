@@ -1,7 +1,7 @@
 
 # Atlantic Margin Model (AMM12) demonstrator
 
-This page describes the AMM12 (Atlantic Margin Model) configuration for the NEMO ocean model in its version 5.0.2. It contains the following tutorials:
+This page describes the AMM12 (Atlantic Margin Model; O'Dea et al., 2012) configuration for the NEMO ocean model in its version 5.0.2. It contains the following tutorials:
 
 * [Tutorial 1](./tutorials/Tutorial-1.md): Set-up the AMM12 standard configuration and perform a simulation. It also contains some general guidance on good practice on ocean modelling.
 * [Tutorial 2](./tutorials/Tutorial-2.md): Change namelist parameters to set the tides on and off, and analyse the results
@@ -13,7 +13,7 @@ This page describes the AMM12 (Atlantic Margin Model) configuration for the NEMO
     <img src="https://github.com/bolb-ocean/AMM12-hackathon/blob/main/FIGURES/AMM_domain.png">
 </p>
 
-## Description
+## Supplementary notes
 
 The AMM12 (O'Dea et al., 2012) configuration covers covers the North-West European shelf and part of the North-East Atlantic ocean. This configuration allows to tests several features of NEMO functionality specifically addressed to the shelf seas. 
 

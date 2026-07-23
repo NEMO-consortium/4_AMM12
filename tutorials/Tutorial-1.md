@@ -18,8 +18,8 @@ Build NEMO following the instructions above. Be sure to specify the AMM12 refere
 Download and unzip the AMM12 configuration input files [here](https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/) into you AMM12 NEMO demonstrator directory.
 
 ```
-wget https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/AMM12_v5.0.1.tar.gz
-tar -xvzf AMM12_v5.0.1.tar.gz
+wget https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/AMM12_v5.0.0.tar.gz
+tar -xvzf AMM12_v5.0.0.tar.gz
 ```
 
 The folder will have the following structure: 

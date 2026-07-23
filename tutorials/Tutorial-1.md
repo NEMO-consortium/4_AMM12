@@ -41,15 +41,14 @@ cp -r AMM12_forcings/* /nemo_5.0.1/cfgs/AMM12_DEMO/EXP00/.
 
 ## Step 5: Copy AMM12 hackathon config files
 
-Download this repository using 
+Clone this tutorial: 
 ```
 git clone git@github.com:bolb-ocean/AMM12-hackathon.git
 ``` 
-Or by downloading and extracting from the [latest doi release](https://zenodo.org/records/15704315)
 
 Extract and then copy the files in the cfgs_update/ directory to your AMM12 build.
 ```
-cp -r cfgs_update/* /nemo_5.0.1/cfgs/MY_AMM12/EXP00/.
+cp -r cfgs_update/* /nemo_5.0.1/cfgs/AMM12_DEMO/EXP00/.
 ```
 
 ## Recommendations on good practices

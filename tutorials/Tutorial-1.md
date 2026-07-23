@@ -18,19 +18,17 @@ Build NEMO following the instructions above. Be sure to specify the AMM12 refere
 Download and unzip the AMM12 configuration input files [here](https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/) into you AMM12 NEMO demonstrator directory.
 
 ```
-wget https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/AMM12_v5.0.0.tar.gz
+wget https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/r5.0.0/AMM12_v5.0.0.tar.gz
 tar -xvzf AMM12_v5.0.0.tar.gz
 ```
 
 The folder will have the following structure: 
 
-```
-- A "bdydata" folder which provides daily tidal forcing at the boundaries for the period 2012-01-01 to 2012-01-10.
-- A "fluxes" folder containing daily surface fluxes, stress and sea surface temperature for the period 2012-01-01 to 2012-01-10.
-- Rivers forcing file "amm12_rivers.nc" which provides daily river forcing for the the period 2012-01-01 to 2012-01-10. Note the Baltic boundary is included within the river file and is specified as a river source. Unlike ordinary river points these Baltic inputs also include salinity and temperature data.
-- 2 restart files "amm12_restart_oce.nc" and "amm12_restart_oce_rk3.nc" which provide salinity and temperature initial conditions.
-- 2 domain files "AMM_R12_sco_domcfg.nc" and "coordinates.bdy.nc". The first is a prebuilt domain for AMM12. The second provides the coordinates for rebuilding the domain.
-```
+- A *bdydata* folder which provides daily tidal forcing at the boundaries for the period 2012-01-01 to 2012-01-10.
+- A *fluxes* folder containing daily surface fluxes, stress and sea surface temperature for the period 2012-01-01 to 2012-01-10.
+- *Rivers forcing* file "amm12_rivers.nc" which provides daily river forcing for the the period 2012-01-01 to 2012-01-10. Note the Baltic boundary is included within the river file and is specified as a river source. Unlike ordinary river points these Baltic inputs also include salinity and temperature data.
+- *2 restart files* "amm12_restart_oce.nc" and "amm12_restart_oce_rk3.nc" which provide salinity and temperature initial conditions.
+- *2 domain files* "AMM_R12_sco_domcfg.nc" and "coordinates.bdy.nc". The first is a prebuilt domain for AMM12. The second provides the coordinates for rebuilding the domain.
 
 ## Step 4: Run an AMM12 simulation
 

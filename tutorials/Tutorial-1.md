@@ -1,23 +1,24 @@
 # Tutorial 1: Set‐up and run a simulation
 
 This mini tutorial will provide you with additional guidance for setting up the NEMO build for the AMM12 demonstrator.
+
 ## Step 1 - Download and install NEMO
 
-The NEMO user guide includes detailed instruction on how to install and compile NEMO and can be viewed here: https://sites.nemo-ocean.io/user-guide/install.html#introduction 
-
-<br> This guide will assume that you have been able to compile NEMO successfully. 
+Please refer to [0_NEMO_basics](https://github.com/NEMO-consortium/0_NEMO_basics/blob/main/Turorial1.md).
 
 ## Step 2 - Compile the AMM12 configuration
 
 Build NEMO following the instructions above. Be sure to specify the AMM12 reference configuration using the -r option:
 ```
-./makenemo –m 'auto' –r AMM12 -n 'MY_AMM12'
+./makenemo -m MY_COMPUTER -r AMM12 -n AMM12_DEMO -j 8
 ```
+
 ## Step 3 - Download AMM12 forcings
 
-Download and unzip the AMM12 configuration input files [here](https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/).
+Download and unzip the AMM12 configuration input files [here](https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/) into you AMM12 NEMO demonstrator directory.
 
 ```
+wget https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/AMM12_v5.0.1.tar.gz
 tar -xvzf AMM12_v5.0.1.tar.gz
 ```
 
@@ -30,7 +31,6 @@ The folder will have the following structure:
 - 2 restart files "amm12_restart_oce.nc" and "amm12_restart_oce_rk3.nc" which provide salinity and temperature initial conditions.
 - 2 domain files "AMM_R12_sco_domcfg.nc" and "coordinates.bdy.nc". The first is a prebuilt domain for AMM12. The second provides the coordinates for rebuilding the domain.
 ```
-
 
 ## Step 4: Run an AMM12 simulation
 
